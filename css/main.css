@@ -5,7 +5,7 @@ body {
   color: #f5f6f7;
 }
 p {font-size: 16px;}
-.margin {margin-bottom: 45px;}
+.margin {margin-bottom: 30px;}
 .bg-1 { 
   background-color: #1abc9c; /* Green */
   color: #ffffff;
@@ -13,6 +13,8 @@ p {font-size: 16px;}
 .bg-2 { 
   background-color: #474e5d; /* Dark Blue */
   color: #ffffff;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .bg-3 { 
   background-color: #ffffff; /* White */
