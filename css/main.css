@@ -24,9 +24,14 @@ p {font-size: 16px;}
   background-color: #2f2f2f; /* Black Gray */
   color: #fff;
 }
+.bg-5 {
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
+}
+
 .container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .navbar {
   padding-top: 15px;
@@ -42,3 +47,16 @@ p {font-size: 16px;}
 }
 
 * { color:#fff; text-decoration: none;}
+
+.img-circle {
+  display: inline;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
