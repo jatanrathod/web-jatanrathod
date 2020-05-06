@@ -9,6 +9,8 @@ p {font-size: 16px;}
 .bg-1 { 
   background-color: #1abc9c; /* Green */
   color: #ffffff;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .bg-2 { 
   background-color: #474e5d; /* Dark Blue */
@@ -57,14 +59,16 @@ p {font-size: 16px;}
   border-radius: 50%;
 }
 
-.fa-spin-hover:hover {
-  animation: fa-spin 2s infinite linear;
-}
-
-#quotes {
-  display: inline-block
+.fab  {
+  color: #1abc9c;
 }
 
 #about  {
+  font-size: larger;
+  display: inline-block
+}
+
+#quotes {
+  font-size: large;
   display: inline-block
 }

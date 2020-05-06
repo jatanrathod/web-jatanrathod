@@ -1,5 +1,20 @@
 window.onload = function() {
-    var options = {
+    var aboutTyped = new Typed('#about', {
+        strings: [ 
+            "> Hi, I am Jatan.",  
+            "> I Love Design.", 
+            "> I Love to Develop.",
+            "> I Love to Travel."
+        ],
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 3000,
+        smartBackspace: true,
+        cursorChar:"_",
+        loop:true
+    });
+
+    var typed = new Typed('#quotes', {
         strings: [
             "Failure is an option here. if things are not failing, you are not innovating. - Elon Musk",
             "It matters if you just don't give up. - Stephen Hawking",
@@ -12,21 +27,7 @@ window.onload = function() {
         backDelay: 3000,
         smartBackspace: true,
         cursorChar:"_",
-        loop:true
-    };
-    var typed = new Typed('#quotes', options);
-    var aboutTyped = new Typed('#about', {
-        strings: [ 
-            "> Hi, I am Jatan.", 
-            "> I am Creative.", 
-            "> I Love Design.", 
-            "> I Love to Develop." 
-        ],
-        typeSpeed: 100,
-        backSpeed: 50,
-        backDelay: 3000,
-        smartBackspace: true,
-        cursorChar:"_",
-        loop:true
+        loop: true,
+        shuffle: true
     });
 };
